@@ -5,13 +5,13 @@ If you use the code here, please cite as follows:
 Sivadas, N. (2021). Measurement uncertainty leads to non-linear bias in regression function (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.5559102
 
 ## Contents
-Code1_Monte_Carlo_Simulation_of_Solar_Wind_Uncertainty.mlx: contains the code that processes Data from data folder, runs a monte-carlo simulation of a solar wind error model, and plots outputs. 
+**Code1_Monte_Carlo_Simulation_of_Solar_Wind_Uncertainty.mlx**: contains the code that processes Data from data folder, runs a monte-carlo simulation of a solar wind error model, and plots outputs. 
 The corresponding .html can be used to view the code and the results for those who do not have access to MATLAB 2021. 
 
-Code2_Analytical_derivation_of_time_uncertainty.mlx: contains the code that carries out a numerical integration that reveals how uncertainty in the measurement times of an input variable can lead to bias in the regression function of the output given input. 
+**Code2_Analytical_derivation_of_time_uncertainty.mlx**: contains the code that carries out a numerical integration that reveals how uncertainty in the measurement times of an input variable can lead to bias in the regression function of the output given input. 
 The corresponding .html can be used to view the code and the results for those who do not have access to MATLAB 2021. 
 
-Data folder contains the following data files: 
+**Data.zip** contains the following data files: 
 
   The WIND spacecraft measurements of the solar wind parameters propagated to the bow shock: https://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/.
 
@@ -23,7 +23,9 @@ Data folder contains the following data files:
 ## Instructions
 Both codes require MATLAB 2021 to run. 
 
-To run Code1 successfully please provide the correct path of the Data folder inside the variable "DataDir".
+To run Code1 successfully please do the followign: 
+  1. Unzip Data.zip within the local repository itself. 
+  2. In Code1_Monte_Carlo_Simulation_of_Solar_Wind_Uncertainty.mlx provide the correct path of the Data folder inside the variable "DataDir".
 
 Code2 can be executed without any external input or data. 
 
